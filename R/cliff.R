@@ -1,4 +1,4 @@
-#' Compute Cliff's delta
+#' Compute Effect Size
 #'
 #' \code{cliff} calculates Cliff's delta statistic using the rank sum method.
 #'
@@ -20,10 +20,10 @@
 #'   Curve. Multivariate Behavioral Research, 47(2), 201–223.
 #'   \doi{10.1080/00273171.2012.658329}.
 #'
-#' @seealso \code{\link[RProbSup]{CalcA1}} and \code{\link[orddom]{dmes}}.
+#' @seealso \code{\link[RProbSup]{CalcA1}}.
 #'
 #' @examples
-#' cliff(sokolova2019[7:12, 3], sokolova2019[1:6, 3])
+#' cliff(unlist(sokolova2021[7:12, 2]), unlist(sokolova2021[1:6, 2]))
 #'
 #' @export
 cliff <- function(v1, v0) {

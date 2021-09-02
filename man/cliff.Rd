@@ -2,7 +2,7 @@
 % Please edit documentation in R/cliff.R
 \name{cliff}
 \alias{cliff}
-\title{Compute Cliff's delta}
+\title{Compute Effect Size}
 \usage{
 cliff(v1, v0)
 }
@@ -19,7 +19,7 @@ cliff(v1, v0)
 \code{cliff} calculates Cliff's delta statistic using the rank sum method.
 }
 \examples{
-cliff(sokolova2019[7:12, 3], sokolova2019[1:6, 3])
+cliff(unlist(sokolova2021[7:12, 2]), unlist(sokolova2021[1:6, 2]))
 
 }
 \references{
@@ -36,5 +36,5 @@ Cliff, N. (1993). Dominance statistics: Ordinal analyses to
   \doi{10.1080/00273171.2012.658329}.
 }
 \seealso{
-\code{\link[RProbSup]{CalcA1}} and \code{\link[orddom]{dmes}}.
+\code{\link[RProbSup]{CalcA1}}.
 }
