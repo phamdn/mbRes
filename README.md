@@ -1,6 +1,7 @@
 # mbRes <img src="man/figures/logo.png" align="right" width="120" />
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/mbRes)](https://cran.r-project.org/package=mbRes)
+[![CRAN_Status_Badge](https://cranlogs.r-pkg.org/badges/grand-total/mbRes)](https://cran.r-project.org/package=mbRes)
 
 ## Installation
 
