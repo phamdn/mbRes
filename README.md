@@ -8,7 +8,9 @@
 ```{r, eval = FALSE}
 # Install the release version from CRAN:
 install.packages("mbRes")
-# or the development version from GitHub:
-# install.packages("devtools")
-devtools::install_github("phamdn/mbRes")
 ```
+
+## Reference
+
+Pham, D. N., & Sokolova, I. M. (2022). Dissecting integrated indices of multiple biomarker responses: Think before use. Integrated Environmental Assessment and Management, ieam.4676. https://doi.org/10.1002/ieam.4676
+

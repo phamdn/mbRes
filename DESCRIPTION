@@ -1,17 +1,17 @@
 Package: mbRes
 Type: Package
 Title: Exploration of Multiple Biomarker Responses using Effect Size
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: c(person("Duy Nghia", "Pham", email = "nghiapham@yandex.com",
     role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1349-1710")),
     person("Inna M.", "Sokolova",
     role = "ths", comment = c(ORCID = "0000-0002-2068-4302")))
 Description: Summarize multiple biomarker responses of aquatic organisms to
-    contaminants using Cliff’s delta, as described in Pham & Sokolova
-    (in press).
+    contaminants using Cliff’s delta, as described in Pham & Sokolova (2022)
+    <doi:10.1002/ieam.4676>.
 Depends: R (>= 4.2.0)
 Imports: stats, ggplot2 (>= 3.3.6), cowplot (>= 1.1.1), magrittr (>= 2.0.3),
-  tibble (>= 3.1.8), dplyr (>= 1.0.9), forcats (>= 0.5.1), tidyr (>= 1.2.0),
+  tibble (>= 3.1.8), dplyr (>= 1.0.10), forcats (>= 0.5.2), tidyr (>= 1.2.1),
   purrr (>= 0.3.4), data.table (>= 1.14.2)
 Suggests: RProbSup (>= 3.0)
 BugReports: https://github.com/phamdn/mbRes/issues
