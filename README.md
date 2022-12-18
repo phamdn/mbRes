@@ -10,7 +10,7 @@
 install.packages("mbRes")
 ```
 
-## Reference
+## Citation
 
 Pham, D. N., & Sokolova, I. M. (2022). Dissecting integrated indices of multiple biomarker responses: Think before use. Integrated Environmental Assessment and Management, ieam.4676. https://doi.org/10.1002/ieam.4676
 
