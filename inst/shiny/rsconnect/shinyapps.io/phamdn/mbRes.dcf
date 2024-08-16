@@ -1,0 +1,13 @@
+name: mbRes
+title: mbRes
+username:
+account: phamdn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4630438
+bundleId: 7324824
+url: https://phamdn.shinyapps.io/mbRes/
+when: 1686316395.2371
+lastSyncTime: 1686316395.23711
+asMultiple: FALSE
+asStatic: FALSE
